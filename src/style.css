@@ -1,0 +1,248 @@
+html,body {
+    background-image: url(./background.avif);
+    background-position: center;
+    background-size:contain;
+    background-attachment: fixed; 
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-style: italic;
+    scrollbar-width:none;
+}
+
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+
+
+
+
+
+nav{
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: rgb(62, 54, 40);
+}
+
+button {
+    height: 40px;
+    width:90px;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    background-color: white;
+    transition: ease-in-out 0.2s;
+    font-size: 18px;
+    overflow: hidden;
+    word-break: break-all;
+    font-style: italic;
+    color: black;
+    
+    
+}
+
+button:hover {
+    background-color: rgb(216, 216, 216);
+}
+
+#contact{
+    width: max-content;
+}
+
+
+
+
+#content{
+    background-color: blanchedalmond;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    opacity: 90%;
+
+
+}
+
+.homepage , .contact, .menu{
+    display: flex;
+    flex-direction: column;
+    
+    width: 100%;
+
+}
+
+.homepage , .contact{
+    margin: 10% 0%;
+}
+
+
+
+
+.heading{
+    font-size: 50px;
+    margin: auto;
+    padding-bottom: 30px;
+
+}
+
+.tagline{
+    font-size: 25px;
+    margin: -25px auto 25px auto ;
+    font-weight: 600;
+}
+
+.dish{
+    margin: 40px 0px ;
+    display: flex;
+    flex-direction: column;
+    gap:12px;
+    padding-bottom: 12px;
+    border-bottom:  dotted black 2px;
+}
+
+.category{
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.price{
+    font-weight: 800;
+}
+
+.dishName{
+    font-size: 22px;
+
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:15px;
+    width:100%;
+    margin: 0;
+    padding: 0;
+    /* width: 400px; */
+
+}
+
+form>button{
+    width: 50%;
+    height: 45px;
+
+}
+
+
+
+
+
+
+
+
+
+.message {
+    padding-bottom: 100px;
+}
+
+
+input{
+    border: none;
+    height: 45px;
+    font-size: 18px;
+    border-radius: 10px;
+    padding-left: 15px;
+    width: calc(90% - 15px);
+    /* width: 60%; */
+}
+
+input:focus{
+    outline: none;
+    border: none;
+}
+
+
+
+
+@media (min-width: 800px) {
+
+
+    html,body {
+        background-size:cover;
+ 
+    }
+
+    
+
+    #content{
+        width: 600px;
+       
+        padding: 50px 100px; 
+        margin: auto;
+        
+        margin-top: 50px;
+        margin-bottom: 50px;
+       
+       
+
+
+        
+    }
+    
+
+
+    button {
+        height: 45px;
+        width: 120px;
+        font-size: 20px;
+    }
+
+    nav{
+        height: 100px;
+    }
+
+    .heading{
+        padding-bottom: 50px;
+    }
+    #contact{
+        width:120px;
+    }
+
+    .tagline{
+        font-size: 25px;
+        margin: -40px auto 25px auto ;
+        font-weight: 600;
+    }
+    
+    
+    .homepage , .contact{
+        display: flex;
+        align-items: center;
+    }
+
+    form {
+        width: 400px;
+
+    }
+
+   
+    
+
+}

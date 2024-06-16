@@ -1,0 +1,95 @@
+{
+    "Appetizers": [
+        {
+            "name": "Paneer Tikka Quesadilla",
+            "description": "A fusion of Mexican quesadilla and Indian paneer tikka, served with mint chutney.",
+            "price": 299.00
+        },
+        {
+            "name": "Tandoori Momos",
+            "description": "Steamed momos marinated in tandoori spices and grilled to perfection.",
+            "price": 299.00
+        },
+        {
+            "name": "Dal Makhani Arancini",
+            "description": "Crispy rice balls stuffed with creamy dal makhani, served with a spicy tomato dip.",
+            "price": 399.00
+        },
+        {
+            "name": "Vada Pav Sliders",
+            "description": "Mini vada pavs served with spicy garlic chutney and fried green chilies.",
+            "price": 275.00
+        }
+    ],
+    "Main Course": [
+        {
+            "name": "Butter Chicken Pizza",
+            "description": "Classic butter chicken served on a thin crust pizza base, topped with mozzarella cheese.",
+            "price": 595.00
+        },
+        {
+            "name": "Masala Pasta",
+            "description": "Pasta cooked with Indian spices and herbs, mixed with vegetables and topped with cheese.",
+            "price": 350.00
+        },
+        {
+            "name": "Pav Bhaji Fondue",
+            "description": "A twist on the traditional pav bhaji, served as a fondue with bread cubes.",
+            "price": 450.00
+        },
+        {
+            "name": "Biryani Burrito",
+            "description": "A burrito filled with fragrant biryani rice, tender chicken pieces, and mint chutney.",
+            "price": 499.00
+        },
+        {
+            "name": "Chole Bhature Tacos",
+            "description": "Tacos filled with spicy chole and topped with pickled onions, served with a side of bhature.",
+            "price": 450.00
+        },
+        {
+            "name": "Paneer Butter Masala Fries",
+            "description": "French fries topped with rich paneer butter masala and drizzled with cheese sauce.",
+            "price": 299.00
+        },
+        {
+            "name": "Schezwan Dosa",
+            "description": "A crispy dosa filled with spicy Schezwan sauce and vegetables, served with coconut chutney.",
+            "price": 350.00
+        },
+        {
+            "name": "Aloo Tikki Burger",
+            "description": "A burger with a spicy aloo tikki patty, lettuce, tomato, and mint mayo.",
+            "price": 299.00
+        },
+        {
+            "name": "Kadai Paneer Wrap",
+            "description": "A wrap filled with kadai paneer, onions, bell peppers, and a tangy yogurt sauce.",
+            "price": 325.00
+        },
+        {
+            "name": "Chicken Tikka Mac and Cheese",
+            "description": "Macaroni in a creamy cheese sauce with chunks of spicy chicken tikka.",
+            "price": 575.00
+        }
+    ],
+    "Desserts": [
+        {
+            "name": "Rasgulla Cheesecake",
+            "description": "A fusion dessert with layers of cheesecake and traditional rasgulla.",
+            "price": 450.00
+        }
+    ],
+    "Beverages": [
+        {
+            "name": "Thandai Shake",
+            "description": "A refreshing milkshake flavored with thandai and topped with nuts.",
+            "price": 275.00
+        },
+        {
+            "name": "Paan Mojito",
+            "description": "A refreshing mojito with the flavors of paan, mint, and lime.",
+            "price": 299.00
+        }
+    ]
+}
